@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    p {
+        @apply text-lg;
+    }
+    a {
+        @apply text-lg underline decoration-blue-600 decoration-2 visited:decoration-violet-600 visited:text-violet-600;
+    }
+}
